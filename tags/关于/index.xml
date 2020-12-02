@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>关于 on muxiaoqi Blogs</title>
+    <link>https://example.com/tags/%E5%85%B3%E4%BA%8E/</link>
+    <description>Recent content in 关于 on muxiaoqi Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 02 Dec 2020 19:38:07 +0800</lastBuildDate><atom:link href="https://example.com/tags/%E5%85%B3%E4%BA%8E/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于</title>
+      <link>https://example.com/about/</link>
+      <pubDate>Wed, 02 Dec 2020 19:38:07 +0800</pubDate>
+      
+      <guid>https://example.com/about/</guid>
+      <description>关于我</description>
+    </item>
+    
+  </channel>
+</rss>
