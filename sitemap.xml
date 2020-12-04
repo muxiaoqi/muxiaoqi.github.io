@@ -3,8 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://muxiaoqi.github.io/posts/example/datatype/</loc>
+    <lastmod>2020-12-04T16:38:07+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://muxiaoqi.github.io/</loc>
-    <lastmod>2020-12-02T19:38:07+08:00</lastmod>
+    <lastmod>2020-12-04T16:38:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muxiaoqi.github.io/posts/</loc>
+    <lastmod>2020-12-04T16:38:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muxiaoqi.github.io/posts/example/loop/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muxiaoqi.github.io/posts/example/controlflow/</loc>
+    <lastmod>2020-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -23,12 +43,7 @@
   </url>
   
   <url>
-    <loc>https://muxiaoqi.github.io/posts/about/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://muxiaoqi.github.io/posts/</loc>
+    <loc>https://muxiaoqi.github.io/posts/example/variables/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
   

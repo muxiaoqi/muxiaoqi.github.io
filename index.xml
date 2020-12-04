@@ -1,20 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>muxiaoqi Blogs</title>
+    <title>muxiaoqi&#39;s Blogs</title>
     <link>https://muxiaoqi.github.io/</link>
-    <description>Recent content on muxiaoqi Blogs</description>
+    <description>Recent content on muxiaoqi&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 02 Dec 2020 19:38:07 +0800</lastBuildDate><atom:link href="https://muxiaoqi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Dec 2020 16:38:07 +0800</lastBuildDate><atom:link href="https://muxiaoqi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>关于</title>
-      <link>https://muxiaoqi.github.io/posts/about/</link>
+      <title>Go 数据结构</title>
+      <link>https://muxiaoqi.github.io/posts/example/datatype/</link>
+      <pubDate>Fri, 04 Dec 2020 16:38:07 +0800</pubDate>
+      
+      <guid>https://muxiaoqi.github.io/posts/example/datatype/</guid>
+      <description>数组 array // arrayvar arr [5]intfmt.Printf(&amp;quot;创建一个长度为%v, 类型为%T的数组arr\n&amp;quot;, len(arr), arr)arr[2] = 100fmt.Printf(&amp;quot;赋值之后的新数组为：%v\n&amp;quot;, arr)// 带初始化array格式arr1 := [5]int{1,2,3,4,5}fmt.Printf(&amp;quot;创建一个带初始值的数组：%v\n&amp;quot;, arr1)// 多维数组var arr2 [2][3]intfor i := 0; i &amp;lt; 2; i++ {for j := 0; j &amp;lt; 3; j++ {arr2[i][j] = i + j}}fmt.Println(&amp;quot;构造一个二维数组&amp;quot;, arr2)切片 slice // slice make创建s := make([]int, 3)fmt.Printf(&amp;quot;make 创建了一个长度为：%v, 类型为%T的切片\n&amp;quot;, len(s), s)// 切片追加元素s = append(s, 10, 11, 12, 13)fmt.</description>
+    </item>
+    
+    <item>
+      <title>Go For循环</title>
+      <link>https://muxiaoqi.github.io/posts/example/loop/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://muxiaoqi.github.io/posts/example/loop/</guid>
+      <description>// 经典for循环for i:=0; i&amp;lt;10; i++ {fmt.Println(i)}// 单个循环条件j := 1for j &amp;lt; 5{fmt.Println(j)j++}// 永久循环 循环体内使用break/return跳出循环for {fmt.Println(&amp;quot;一直循环&amp;quot;)break}</description>
+    </item>
+    
+    <item>
+      <title>Go 流程控制</title>
+      <link>https://muxiaoqi.github.io/posts/example/controlflow/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://muxiaoqi.github.io/posts/example/controlflow/</guid>
+      <description>条件控制 if-else // if-else基本例子if 8%2 == 0 {fmt.Println(&amp;quot;8是偶数&amp;quot;)} else {fmt.Println(&amp;quot;8是奇数&amp;quot;)}// 条件之前带语句的 if-elseif i := 5; i &amp;lt; 0 {fmt.Println(i, &amp;quot;为负数&amp;quot;)} else if i &amp;lt; 10 {fmt.Println(i, &amp;quot;为1位数&amp;quot;)} else {fmt.Println(i, &amp;quot;为多位数&amp;quot;)}分支结构 switch // switchsex := 1switch sex {case 0:fmt.Println(&amp;quot;保密&amp;quot;)case 1:fmt.Println(&amp;quot;男&amp;quot;)case 2:fmt.Println(&amp;quot;女&amp;quot;)}// 一个分支中多表达式switch time.Now().Weekday() {case time.Saturday, time.</description>
+    </item>
+    
+    <item>
+      <title>Go变量</title>
+      <link>https://muxiaoqi.github.io/posts/example/variables/</link>
       <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://muxiaoqi.github.io/posts/about/</guid>
-      <description>这是关于页面，muxiaoqi。</description>
+      <guid>https://muxiaoqi.github.io/posts/example/variables/</guid>
+      <description>// var声明一个变量var a int = 100fmt.Println(&amp;quot;var声明一个变量：&amp;quot;, a)// var声明多个变量var b, c int = 1, 2fmt.Println(&amp;quot;var声明多个变量：&amp;quot;, b, c)// 自动推导类型var d = &amp;quot;hello world&amp;quot;fmt.Println(&amp;quot;自动推导数据类型：&amp;quot;, d)// 声明变量没初始化 会默认 int=&amp;gt;0 string=&amp;gt;&#39;&#39;var e boolfmt.Println(&amp;quot;bool默认值:&amp;quot;, e)// 简写方式f := &amp;quot;i love china&amp;quot;fmt.Println(&amp;quot;简写方式: &amp;quot;, f)</description>
     </item>
     
   </channel>
