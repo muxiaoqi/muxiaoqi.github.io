@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Go on muxiaoqi&#39;s Blogs</title>
-    <link>https://muxiaoqi.github.io/categories/go/</link>
-    <description>Recent content in Go on muxiaoqi&#39;s Blogs</description>
+    <title>Go example on muxiaoqi&#39;s Blogs</title>
+    <link>https://muxiaoqi.github.io/tags/go-example/</link>
+    <description>Recent content in Go example on muxiaoqi&#39;s Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 07 Dec 2020 11:29:03 +0800</lastBuildDate><atom:link href="https://muxiaoqi.github.io/categories/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Dec 2020 11:29:03 +0800</lastBuildDate><atom:link href="https://muxiaoqi.github.io/tags/go-example/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go 函数</title>
       <link>https://muxiaoqi.github.io/posts/example/functions/</link>

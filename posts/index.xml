@@ -6,18 +6,8 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Tue, 08 Dec 2020 18:25:01 +0800</lastBuildDate>
+		<lastBuildDate>Mon, 07 Dec 2020 11:29:03 +0800</lastBuildDate>
 		<atom:link href="https://muxiaoqi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-		
-		<item>
-			<title>Go 指针</title>
-			<link>https://muxiaoqi.github.io/posts/example/pointers/</link>
-			<pubDate>Tue, 08 Dec 2020 18:25:01 +0800</pubDate>
-			
-			<guid>https://muxiaoqi.github.io/posts/example/pointers/</guid>
-			<description></description>
-			<content type="html"><![CDATA[]]></content>
-		</item>
 		
 		<item>
 			<title>Go 函数</title>

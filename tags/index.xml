@@ -7,22 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 08 Dec 2020 18:25:01 +0800</lastBuildDate><atom:link href="https://muxiaoqi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Dec 2020 11:29:03 +0800</lastBuildDate><atom:link href="https://muxiaoqi.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>example</title>
-      <link>https://muxiaoqi.github.io/tags/example/</link>
-      <pubDate>Tue, 08 Dec 2020 18:25:01 +0800</pubDate>
+      <title>Go example</title>
+      <link>https://muxiaoqi.github.io/tags/go-example/</link>
+      <pubDate>Mon, 07 Dec 2020 11:29:03 +0800</pubDate>
       
-      <guid>https://muxiaoqi.github.io/tags/example/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>https://muxiaoqi.github.io/tags/go/</link>
-      <pubDate>Tue, 08 Dec 2020 18:25:01 +0800</pubDate>
-      
-      <guid>https://muxiaoqi.github.io/tags/go/</guid>
+      <guid>https://muxiaoqi.github.io/tags/go-example/</guid>
       <description></description>
     </item>
     
