@@ -8,23 +8,24 @@
 	<meta name="theme-color" content="#494f5c">
 	<meta name="msapplication-TileColor" content="#494f5c">
 <meta itemprop="name" content="Go 数据结构">
-<meta itemprop="description" content="数组 array // arrayvar arr [5]intfmt.Printf(&quot;创建一个长度为%v, 类型为%T的数组arr\n&quot;, len(arr), arr)arr[2] = 100fmt.Printf(&quot;赋值之后的新数组为：%v\n&quot;, arr)// 带初始化array格式arr1 := [5]int{1,2,3,4,5}fmt.Printf(&quot;创建一个带初始值的数组：%v\n&quot;, arr1)// 多维数组var arr2 [2][3]intfor i := 0; i &lt; 2; i&#43;&#43; {for j := 0; j &lt; 3; j&#43;&#43; {arr2[i][j] = i &#43; j}}fmt.Println(&quot;构造一个二维数组&quot;, arr2)切片 slice // slice make创建s := make([]int, 3)fmt.Printf(&quot;make 创建了一个长度为：%v, 类型为%T的切片\n&quot;, len(s), s)// 切片追加元素s = append(s, 10, 11, 12, 13)fmt.">
+<meta itemprop="description" content="数组 array // array var arr [5]int fmt.Printf(&#34;创建一个长度为%v, 类型为%T的数组arr\n&#34;, len(arr), arr) arr[2] = 100 fmt.Printf(&#34;赋值之后的新数组为：%v\n&#34;, arr) // 带初始化array格式 arr1 := [5]int{1,2,3,4,5} fmt.Printf(&#34;创建一个带初始值的数组：%v\n&#34;, arr1) // 多维数组 var arr2 [2][3]int for i := 0; i &lt; 2; i&#43;&#43; { for j := 0; j &lt; 3; j&#43;&#43; { arr2[i][j] = i &#43; j } } fmt.Println(&#34;构造一个二维数组&#34;, arr2) 切片 slice // slice make创建 s := make([]int, 3) fmt.Printf(&#34;make 创建了一个长度为：%v, 类型为%T的切片\n&#34;, len(s), s) // 切片追加元素 s = append(s, 10, 11, 12, 13) fmt.">
 <meta itemprop="datePublished" content="2020-12-04T16:38:07+08:00" />
 <meta itemprop="dateModified" content="2020-12-04T16:38:07+08:00" />
-<meta itemprop="wordCount" content="160">
+<meta itemprop="wordCount" content="220">
 
 
 
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="Go,example," />
 <meta property="og:title" content="Go 数据结构" />
-<meta property="og:description" content="数组 array // arrayvar arr [5]intfmt.Printf(&quot;创建一个长度为%v, 类型为%T的数组arr\n&quot;, len(arr), arr)arr[2] = 100fmt.Printf(&quot;赋值之后的新数组为：%v\n&quot;, arr)// 带初始化array格式arr1 := [5]int{1,2,3,4,5}fmt.Printf(&quot;创建一个带初始值的数组：%v\n&quot;, arr1)// 多维数组var arr2 [2][3]intfor i := 0; i &lt; 2; i&#43;&#43; {for j := 0; j &lt; 3; j&#43;&#43; {arr2[i][j] = i &#43; j}}fmt.Println(&quot;构造一个二维数组&quot;, arr2)切片 slice // slice make创建s := make([]int, 3)fmt.Printf(&quot;make 创建了一个长度为：%v, 类型为%T的切片\n&quot;, len(s), s)// 切片追加元素s = append(s, 10, 11, 12, 13)fmt." />
+<meta property="og:description" content="数组 array // array var arr [5]int fmt.Printf(&#34;创建一个长度为%v, 类型为%T的数组arr\n&#34;, len(arr), arr) arr[2] = 100 fmt.Printf(&#34;赋值之后的新数组为：%v\n&#34;, arr) // 带初始化array格式 arr1 := [5]int{1,2,3,4,5} fmt.Printf(&#34;创建一个带初始值的数组：%v\n&#34;, arr1) // 多维数组 var arr2 [2][3]int for i := 0; i &lt; 2; i&#43;&#43; { for j := 0; j &lt; 3; j&#43;&#43; { arr2[i][j] = i &#43; j } } fmt.Println(&#34;构造一个二维数组&#34;, arr2) 切片 slice // slice make创建 s := make([]int, 3) fmt.Printf(&#34;make 创建了一个长度为：%v, 类型为%T的切片\n&#34;, len(s), s) // 切片追加元素 s = append(s, 10, 11, 12, 13) fmt." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://muxiaoqi.github.io/posts/example/datatype/" />
 <meta property="article:published_time" content="2020-12-04T16:38:07+08:00" />
 <meta property="article:modified_time" content="2020-12-04T16:38:07+08:00" />
+
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Go 数据结构"/>
-<meta name="twitter:description" content="数组 array // arrayvar arr [5]intfmt.Printf(&quot;创建一个长度为%v, 类型为%T的数组arr\n&quot;, len(arr), arr)arr[2] = 100fmt.Printf(&quot;赋值之后的新数组为：%v\n&quot;, arr)// 带初始化array格式arr1 := [5]int{1,2,3,4,5}fmt.Printf(&quot;创建一个带初始值的数组：%v\n&quot;, arr1)// 多维数组var arr2 [2][3]intfor i := 0; i &lt; 2; i&#43;&#43; {for j := 0; j &lt; 3; j&#43;&#43; {arr2[i][j] = i &#43; j}}fmt.Println(&quot;构造一个二维数组&quot;, arr2)切片 slice // slice make创建s := make([]int, 3)fmt.Printf(&quot;make 创建了一个长度为：%v, 类型为%T的切片\n&quot;, len(s), s)// 切片追加元素s = append(s, 10, 11, 12, 13)fmt."/>
+<meta name="twitter:description" content="数组 array // array var arr [5]int fmt.Printf(&#34;创建一个长度为%v, 类型为%T的数组arr\n&#34;, len(arr), arr) arr[2] = 100 fmt.Printf(&#34;赋值之后的新数组为：%v\n&#34;, arr) // 带初始化array格式 arr1 := [5]int{1,2,3,4,5} fmt.Printf(&#34;创建一个带初始值的数组：%v\n&#34;, arr1) // 多维数组 var arr2 [2][3]int for i := 0; i &lt; 2; i&#43;&#43; { for j := 0; j &lt; 3; j&#43;&#43; { arr2[i][j] = i &#43; j } } fmt.Println(&#34;构造一个二维数组&#34;, arr2) 切片 slice // slice make创建 s := make([]int, 3) fmt.Printf(&#34;make 创建了一个长度为：%v, 类型为%T的切片\n&#34;, len(s), s) // 切片追加元素 s = append(s, 10, 11, 12, 13) fmt."/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -74,58 +75,76 @@
 			</header>
 			<div class="content">
 				<h3 id="数组-array">数组 array<a href="#数组-array" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
-<pre><code>// array
-var arr [5]int
-fmt.Printf(&quot;创建一个长度为%v, 类型为%T的数组arr\n&quot;, len(arr), arr)
-arr[2] = 100
-fmt.Printf(&quot;赋值之后的新数组为：%v\n&quot;, arr)
-// 带初始化array格式
-arr1 := [5]int{1,2,3,4,5}
-fmt.Printf(&quot;创建一个带初始值的数组：%v\n&quot;, arr1)
-// 多维数组
-var arr2 [2][3]int
-for i := 0; i &lt; 2; i++ {
-    for j := 0; j &lt; 3; j++ {
-        arr2[i][j] = i + j
-    }
-}
-fmt.Println(&quot;构造一个二维数组&quot;, arr2)
-</code></pre><h3 id="切片-slice">切片 slice<a href="#切片-slice" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
-<pre><code>// slice make创建
-s := make([]int, 3)
-fmt.Printf(&quot;make 创建了一个长度为：%v, 类型为%T的切片\n&quot;, len(s), s)
-// 切片追加元素
-s = append(s, 10, 11, 12, 13)
-fmt.Println(&quot;切片追加后的新切片为：&quot;, s)
-// 切片复制
-copyS := make([]int, len(s))
-copy(copyS, s)
-fmt.Println(&quot;复制的新切片为：&quot;, copyS)
-// 切片分割 slice[low:high]
-sliceA := s[2:5]
-fmt.Println(&quot;切割后的新切片为：&quot;, sliceA)
-sliceB := s[:5]
-fmt.Println(&quot;获取切片前5个元素：&quot;, sliceB)
-sliceC := s[2:]
-fmt.Println(&quot;获取切片第2个之后的数据：&quot;, sliceC)
-// 带初始值的切片
-sliceD := []string{&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;d&quot;}
-fmt.Println(&quot;简写切片变量：&quot;, sliceD)
-// 多维切片
-sliceE := make([][]int, 3)
-for i := 0; i &lt; 3; i++ {
-    l := i + 1
-    sliceE[i] = make([]int, l)
-    for j := 0; j &lt; l; j++ {
-        sliceE[i][j] = i + j
-    }
-}
-fmt.Println(&quot;二维切片为：&quot;, sliceE)
-</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// array
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">arr</span> <span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="kt">int</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;创建一个长度为%v, 类型为%T的数组arr\n&#34;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="nx">arr</span><span class="p">),</span> <span class="nx">arr</span><span class="p">)</span>
+<span class="nx">arr</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="p">=</span> <span class="mi">100</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;赋值之后的新数组为：%v\n&#34;</span><span class="p">,</span> <span class="nx">arr</span><span class="p">)</span>
+<span class="c1">// 带初始化array格式
+</span><span class="c1"></span><span class="nx">arr1</span> <span class="o">:=</span> <span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="kt">int</span><span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">}</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;创建一个带初始值的数组：%v\n&#34;</span><span class="p">,</span> <span class="nx">arr1</span><span class="p">)</span>
+<span class="c1">// 多维数组
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">arr2</span> <span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">3</span><span class="p">]</span><span class="kt">int</span>
+<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="mi">2</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+    <span class="k">for</span> <span class="nx">j</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">j</span> <span class="p">&lt;</span> <span class="mi">3</span><span class="p">;</span> <span class="nx">j</span><span class="o">++</span> <span class="p">{</span>
+        <span class="nx">arr2</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="nx">j</span><span class="p">]</span> <span class="p">=</span> <span class="nx">i</span> <span class="o">+</span> <span class="nx">j</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;构造一个二维数组&#34;</span><span class="p">,</span> <span class="nx">arr2</span><span class="p">)</span>
+</code></pre></div><h3 id="切片-slice">切片 slice<a href="#切片-slice" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// slice make创建
+</span><span class="c1"></span><span class="nx">s</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;make 创建了一个长度为：%v, 类型为%T的切片\n&#34;</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="nx">s</span><span class="p">),</span> <span class="nx">s</span><span class="p">)</span>
+<span class="c1">// 切片追加元素
+</span><span class="c1"></span><span class="nx">s</span> <span class="p">=</span> <span class="nb">append</span><span class="p">(</span><span class="nx">s</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">12</span><span class="p">,</span> <span class="mi">13</span><span class="p">)</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;切片追加后的新切片为：&#34;</span><span class="p">,</span> <span class="nx">s</span><span class="p">)</span>
+<span class="c1">// 切片复制
+</span><span class="c1"></span><span class="nx">copyS</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="nx">s</span><span class="p">))</span>
+<span class="nb">copy</span><span class="p">(</span><span class="nx">copyS</span><span class="p">,</span> <span class="nx">s</span><span class="p">)</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;复制的新切片为：&#34;</span><span class="p">,</span> <span class="nx">copyS</span><span class="p">)</span>
+<span class="c1">// 切片分割 slice[low:high]
+</span><span class="c1"></span><span class="nx">sliceA</span> <span class="o">:=</span> <span class="nx">s</span><span class="p">[</span><span class="mi">2</span><span class="p">:</span><span class="mi">5</span><span class="p">]</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;切割后的新切片为：&#34;</span><span class="p">,</span> <span class="nx">sliceA</span><span class="p">)</span>
+<span class="nx">sliceB</span> <span class="o">:=</span> <span class="nx">s</span><span class="p">[:</span><span class="mi">5</span><span class="p">]</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;获取切片前5个元素：&#34;</span><span class="p">,</span> <span class="nx">sliceB</span><span class="p">)</span>
+<span class="nx">sliceC</span> <span class="o">:=</span> <span class="nx">s</span><span class="p">[</span><span class="mi">2</span><span class="p">:]</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;获取切片第2个之后的数据：&#34;</span><span class="p">,</span> <span class="nx">sliceC</span><span class="p">)</span>
+<span class="c1">// 带初始值的切片
+</span><span class="c1"></span><span class="nx">sliceD</span> <span class="o">:=</span> <span class="p">[]</span><span class="kt">string</span><span class="p">{</span><span class="s">&#34;a&#34;</span><span class="p">,</span> <span class="s">&#34;b&#34;</span><span class="p">,</span> <span class="s">&#34;c&#34;</span><span class="p">,</span> <span class="s">&#34;d&#34;</span><span class="p">}</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;简写切片变量：&#34;</span><span class="p">,</span> <span class="nx">sliceD</span><span class="p">)</span>
+<span class="c1">// 多维切片
+</span><span class="c1"></span><span class="nx">sliceE</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">([][]</span><span class="kt">int</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="mi">3</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+    <span class="nx">l</span> <span class="o">:=</span> <span class="nx">i</span> <span class="o">+</span> <span class="mi">1</span>
+    <span class="nx">sliceE</span><span class="p">[</span><span class="nx">i</span><span class="p">]</span> <span class="p">=</span> <span class="nb">make</span><span class="p">([]</span><span class="kt">int</span><span class="p">,</span> <span class="nx">l</span><span class="p">)</span>
+    <span class="k">for</span> <span class="nx">j</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">j</span> <span class="p">&lt;</span> <span class="nx">l</span><span class="p">;</span> <span class="nx">j</span><span class="o">++</span> <span class="p">{</span>
+        <span class="nx">sliceE</span><span class="p">[</span><span class="nx">i</span><span class="p">][</span><span class="nx">j</span><span class="p">]</span> <span class="p">=</span> <span class="nx">i</span> <span class="o">+</span> <span class="nx">j</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;二维切片为：&#34;</span><span class="p">,</span> <span class="nx">sliceE</span><span class="p">)</span>
+</code></pre></div><h3 id="关联数组-map">关联数组 map<a href="#关联数组-map" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// 创建空map
+</span><span class="c1"></span><span class="nx">m</span> <span class="o">:=</span> <span class="nb">make</span><span class="p">(</span><span class="kd">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="kt">string</span><span class="p">)</span>
+<span class="nx">m</span><span class="p">[</span><span class="s">&#34;name&#34;</span><span class="p">]</span> <span class="p">=</span> <span class="s">&#34;张三&#34;</span>
+<span class="nx">m</span><span class="p">[</span><span class="s">&#34;sex&#34;</span><span class="p">]</span> <span class="p">=</span> <span class="s">&#34;男&#34;</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;map的值为：%v, 长度为：%v\n&#34;</span><span class="p">,</span> <span class="nx">m</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="nx">m</span><span class="p">))</span> <span class="c1">// map的值为：map[name:张三 sex:男], 长度为：2
+</span><span class="c1">// 删除键值对
+</span><span class="c1"></span><span class="nb">delete</span><span class="p">(</span><span class="nx">m</span><span class="p">,</span> <span class="s">&#34;sex&#34;</span><span class="p">)</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;map删除后的值为：%v, 长度为：%v\n&#34;</span><span class="p">,</span> <span class="nx">m</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="nx">m</span><span class="p">))</span> <span class="c1">// map删除后的值为：map[name:张三], 长度为：1
+</span><span class="c1">// 判断键是否存在
+</span><span class="c1"></span><span class="nx">_</span><span class="p">,</span> <span class="nx">psr</span> <span class="o">:=</span> <span class="nx">m</span><span class="p">[</span><span class="s">&#34;sex&#34;</span><span class="p">]</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">psr</span><span class="p">)</span>    <span class="c1">// false
+</span><span class="c1">// 声明带初始值的map
+</span><span class="c1"></span><span class="nx">m1</span> <span class="o">:=</span> <span class="kd">map</span><span class="p">[</span><span class="kt">string</span><span class="p">]</span><span class="kt">int</span><span class="p">{</span><span class="s">&#34;k1&#34;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="s">&#34;k2&#34;</span><span class="p">:</span> <span class="mi">20</span><span class="p">,</span> <span class="s">&#34;k3&#34;</span><span class="p">:</span> <span class="mi">30</span><span class="p">}</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;map m1的值为：&#34;</span><span class="p">,</span> <span class="nx">m1</span><span class="p">)</span> <span class="c1">// map m1的值为： map[k1:10 k2:20 k3:30]
+</span></code></pre></div>
 			</div>
 			<hr class="post-end">
 			<footer class="post-info">
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>160 Words</p>
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://muxiaoqi.github.io/tags/go">Go</a></span><span class="tag"><a href="https://muxiaoqi.github.io/tags/example">example</a></span>
+				</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>220 Words</p>
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-12-04 16:38 &#43;0800</p>
 			</footer>
 		</article>
@@ -137,12 +156,16 @@ fmt.Println(&quot;二维切片为：&quot;, sliceE)
       <ul>
         <li><a href="#数组-array">数组 array</a></li>
         <li><a href="#切片-slice">切片 slice</a></li>
+        <li><a href="#关联数组-map">关联数组 map</a></li>
       </ul>
     </li>
   </ul>
 </nav>
 		</aside>
 		<div class="post-nav thin">
+			<a class="next-post" href="https://muxiaoqi.github.io/posts/example/range/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>Go Range遍历</span>
+			</a>
 			<a class="prev-post" href="https://muxiaoqi.github.io/posts/example/loop/">
 				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Go For循环</span>
 			</a>

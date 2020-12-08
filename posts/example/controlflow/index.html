@@ -8,23 +8,24 @@
 	<meta name="theme-color" content="#494f5c">
 	<meta name="msapplication-TileColor" content="#494f5c">
 <meta itemprop="name" content="Go 流程控制">
-<meta itemprop="description" content="条件控制 if-else // if-else基本例子if 8%2 == 0 {fmt.Println(&quot;8是偶数&quot;)} else {fmt.Println(&quot;8是奇数&quot;)}// 条件之前带语句的 if-elseif i := 5; i &lt; 0 {fmt.Println(i, &quot;为负数&quot;)} else if i &lt; 10 {fmt.Println(i, &quot;为1位数&quot;)} else {fmt.Println(i, &quot;为多位数&quot;)}分支结构 switch // switchsex := 1switch sex {case 0:fmt.Println(&quot;保密&quot;)case 1:fmt.Println(&quot;男&quot;)case 2:fmt.Println(&quot;女&quot;)}// 一个分支中多表达式switch time.Now().Weekday() {case time.Saturday, time.">
+<meta itemprop="description" content="条件控制 if-else // if-else基本例子 if 8%2 == 0 { fmt.Println(&#34;8是偶数&#34;) } else { fmt.Println(&#34;8是奇数&#34;) } // 条件之前带语句的 if-else if i := 5; i &lt; 0 { fmt.Println(i, &#34;为负数&#34;) } else if i &lt; 10 { fmt.Println(i, &#34;为1位数&#34;) } else { fmt.Println(i, &#34;为多位数&#34;) } 分支结构 switch // switch sex := 1 switch sex { case 0: fmt.Println(&#34;保密&#34;) case 1: fmt.Println(&#34;男&#34;) case 2: fmt.Println(&#34;女&#34;) } // 一个分支中多表达式 switch time.Now().Weekday() { case time.Saturday, time.">
 <meta itemprop="datePublished" content="2020-12-04T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-12-04T00:00:00+00:00" />
 <meta itemprop="wordCount" content="90">
 
 
 
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="Go,example," />
 <meta property="og:title" content="Go 流程控制" />
-<meta property="og:description" content="条件控制 if-else // if-else基本例子if 8%2 == 0 {fmt.Println(&quot;8是偶数&quot;)} else {fmt.Println(&quot;8是奇数&quot;)}// 条件之前带语句的 if-elseif i := 5; i &lt; 0 {fmt.Println(i, &quot;为负数&quot;)} else if i &lt; 10 {fmt.Println(i, &quot;为1位数&quot;)} else {fmt.Println(i, &quot;为多位数&quot;)}分支结构 switch // switchsex := 1switch sex {case 0:fmt.Println(&quot;保密&quot;)case 1:fmt.Println(&quot;男&quot;)case 2:fmt.Println(&quot;女&quot;)}// 一个分支中多表达式switch time.Now().Weekday() {case time.Saturday, time." />
+<meta property="og:description" content="条件控制 if-else // if-else基本例子 if 8%2 == 0 { fmt.Println(&#34;8是偶数&#34;) } else { fmt.Println(&#34;8是奇数&#34;) } // 条件之前带语句的 if-else if i := 5; i &lt; 0 { fmt.Println(i, &#34;为负数&#34;) } else if i &lt; 10 { fmt.Println(i, &#34;为1位数&#34;) } else { fmt.Println(i, &#34;为多位数&#34;) } 分支结构 switch // switch sex := 1 switch sex { case 0: fmt.Println(&#34;保密&#34;) case 1: fmt.Println(&#34;男&#34;) case 2: fmt.Println(&#34;女&#34;) } // 一个分支中多表达式 switch time.Now().Weekday() { case time.Saturday, time." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://muxiaoqi.github.io/posts/example/controlflow/" />
 <meta property="article:published_time" content="2020-12-04T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-12-04T00:00:00+00:00" />
+
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Go 流程控制"/>
-<meta name="twitter:description" content="条件控制 if-else // if-else基本例子if 8%2 == 0 {fmt.Println(&quot;8是偶数&quot;)} else {fmt.Println(&quot;8是奇数&quot;)}// 条件之前带语句的 if-elseif i := 5; i &lt; 0 {fmt.Println(i, &quot;为负数&quot;)} else if i &lt; 10 {fmt.Println(i, &quot;为1位数&quot;)} else {fmt.Println(i, &quot;为多位数&quot;)}分支结构 switch // switchsex := 1switch sex {case 0:fmt.Println(&quot;保密&quot;)case 1:fmt.Println(&quot;男&quot;)case 2:fmt.Println(&quot;女&quot;)}// 一个分支中多表达式switch time.Now().Weekday() {case time.Saturday, time."/>
+<meta name="twitter:description" content="条件控制 if-else // if-else基本例子 if 8%2 == 0 { fmt.Println(&#34;8是偶数&#34;) } else { fmt.Println(&#34;8是奇数&#34;) } // 条件之前带语句的 if-else if i := 5; i &lt; 0 { fmt.Println(i, &#34;为负数&#34;) } else if i &lt; 10 { fmt.Println(i, &#34;为1位数&#34;) } else { fmt.Println(i, &#34;为多位数&#34;) } 分支结构 switch // switch sex := 1 switch sex { case 0: fmt.Println(&#34;保密&#34;) case 1: fmt.Println(&#34;男&#34;) case 2: fmt.Println(&#34;女&#34;) } // 一个分支中多表达式 switch time.Now().Weekday() { case time.Saturday, time."/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -74,50 +75,53 @@
 			</header>
 			<div class="content">
 				<h3 id="条件控制-if-else">条件控制 if-else<a href="#条件控制-if-else" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
-<pre><code>// if-else基本例子
-if 8%2 == 0 {
-    fmt.Println(&quot;8是偶数&quot;)
-} else {
-    fmt.Println(&quot;8是奇数&quot;)
-}
-// 条件之前带语句的 if-else
-if i := 5; i &lt; 0 {
-    fmt.Println(i, &quot;为负数&quot;)
-} else if i &lt; 10 {
-    fmt.Println(i, &quot;为1位数&quot;)
-} else {
-    fmt.Println(i, &quot;为多位数&quot;)
-}
-</code></pre><h3 id="分支结构-switch">分支结构 switch<a href="#分支结构-switch" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
-<pre><code>// switch
-sex := 1
-switch sex {
-case 0:
-    fmt.Println(&quot;保密&quot;)
-case 1:
-    fmt.Println(&quot;男&quot;)
-case 2:
-    fmt.Println(&quot;女&quot;)
-}
-// 一个分支中多表达式
-switch time.Now().Weekday() {
-case time.Saturday, time.Sunday:
-    fmt.Println(&quot;周末了，出去浪&quot;)
-default:
-    fmt.Println(&quot;工作日，努力搬砖&quot;)
-}
-// 不带表达式的switch
-t := time.Now()
-switch {
-case t.Hour() &lt; 12:
-    fmt.Println(&quot;上午&quot;)
-default:
-    fmt.Println(&quot;下午&quot;)
-}
-</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// if-else基本例子
+</span><span class="c1"></span><span class="k">if</span> <span class="mi">8</span><span class="o">%</span><span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">{</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;8是偶数&#34;</span><span class="p">)</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;8是奇数&#34;</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="c1">// 条件之前带语句的 if-else
+</span><span class="c1"></span><span class="k">if</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">5</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="mi">0</span> <span class="p">{</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span> <span class="s">&#34;为负数&#34;</span><span class="p">)</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="mi">10</span> <span class="p">{</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span> <span class="s">&#34;为1位数&#34;</span><span class="p">)</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">,</span> <span class="s">&#34;为多位数&#34;</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div><h3 id="分支结构-switch">分支结构 switch<a href="#分支结构-switch" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h3>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// switch
+</span><span class="c1"></span><span class="nx">sex</span> <span class="o">:=</span> <span class="mi">1</span>
+<span class="k">switch</span> <span class="nx">sex</span> <span class="p">{</span>
+<span class="k">case</span> <span class="mi">0</span><span class="p">:</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;保密&#34;</span><span class="p">)</span>
+<span class="k">case</span> <span class="mi">1</span><span class="p">:</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;男&#34;</span><span class="p">)</span>
+<span class="k">case</span> <span class="mi">2</span><span class="p">:</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;女&#34;</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="c1">// 一个分支中多表达式
+</span><span class="c1"></span><span class="k">switch</span> <span class="nx">time</span><span class="p">.</span><span class="nf">Now</span><span class="p">().</span><span class="nf">Weekday</span><span class="p">()</span> <span class="p">{</span>
+<span class="k">case</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Saturday</span><span class="p">,</span> <span class="nx">time</span><span class="p">.</span><span class="nx">Sunday</span><span class="p">:</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;周末了，出去浪&#34;</span><span class="p">)</span>
+<span class="k">default</span><span class="p">:</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;工作日，努力搬砖&#34;</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="c1">// 不带表达式的switch
+</span><span class="c1"></span><span class="nx">t</span> <span class="o">:=</span> <span class="nx">time</span><span class="p">.</span><span class="nf">Now</span><span class="p">()</span>
+<span class="k">switch</span> <span class="p">{</span>
+<span class="k">case</span> <span class="nx">t</span><span class="p">.</span><span class="nf">Hour</span><span class="p">()</span> <span class="p">&lt;</span> <span class="mi">12</span><span class="p">:</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;上午&#34;</span><span class="p">)</span>
+<span class="k">default</span><span class="p">:</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;下午&#34;</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div>
 			</div>
 			<hr class="post-end">
 			<footer class="post-info">
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://muxiaoqi.github.io/tags/go">Go</a></span><span class="tag"><a href="https://muxiaoqi.github.io/tags/example">example</a></span>
+				</p>
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>90 Words</p>
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-12-04 08:00 &#43;0800</p>
 			</footer>
@@ -140,7 +144,7 @@ default:
 				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>Go For循环</span>
 			</a>
 			<a class="prev-post" href="https://muxiaoqi.github.io/posts/example/variables/">
-				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Go变量</span>
+				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Go 变量</span>
 			</a>
 		</div>
 		<div id="comments" class="thin">

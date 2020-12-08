@@ -3,17 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://muxiaoqi.github.io/posts/example/datatype/</loc>
-    <lastmod>2020-12-04T16:38:07+08:00</lastmod>
+    <loc>https://muxiaoqi.github.io/categories/</loc>
+    <lastmod>2020-12-08T18:25:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muxiaoqi.github.io/tags/example/</loc>
+    <lastmod>2020-12-08T18:25:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muxiaoqi.github.io/tags/go/</loc>
+    <lastmod>2020-12-08T18:25:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muxiaoqi.github.io/categories/go/</loc>
+    <lastmod>2020-12-08T18:25:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muxiaoqi.github.io/series/go-example/</loc>
+    <lastmod>2020-12-08T18:25:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muxiaoqi.github.io/posts/example/pointers/</loc>
+    <lastmod>2020-12-08T18:25:01+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://muxiaoqi.github.io/</loc>
-    <lastmod>2020-12-04T16:38:07+08:00</lastmod>
+    <lastmod>2020-12-08T18:25:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muxiaoqi.github.io/series/</loc>
+    <lastmod>2020-12-08T18:25:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muxiaoqi.github.io/tags/</loc>
+    <lastmod>2020-12-08T18:25:01+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://muxiaoqi.github.io/posts/</loc>
+    <lastmod>2020-12-08T18:25:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muxiaoqi.github.io/posts/example/functions/</loc>
+    <lastmod>2020-12-07T11:29:03+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muxiaoqi.github.io/posts/example/range/</loc>
+    <lastmod>2020-12-07T11:17:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://muxiaoqi.github.io/posts/example/datatype/</loc>
     <lastmod>2020-12-04T16:38:07+08:00</lastmod>
   </url>
   
@@ -25,11 +75,6 @@
   <url>
     <loc>https://muxiaoqi.github.io/posts/example/controlflow/</loc>
     <lastmod>2020-12-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://muxiaoqi.github.io/tags/</loc>
-    <lastmod>2020-12-02T19:38:07+08:00</lastmod>
   </url>
   
   <url>

@@ -8,23 +8,24 @@
 	<meta name="theme-color" content="#494f5c">
 	<meta name="msapplication-TileColor" content="#494f5c">
 <meta itemprop="name" content="Go For循环">
-<meta itemprop="description" content="// 经典for循环for i:=0; i&lt;10; i&#43;&#43; {fmt.Println(i)}// 单个循环条件j := 1for j &lt; 5{fmt.Println(j)j&#43;&#43;}// 永久循环 循环体内使用break/return跳出循环for {fmt.Println(&quot;一直循环&quot;)break}">
+<meta itemprop="description" content="// 经典for循环 for i:=0; i&lt;10; i&#43;&#43; { fmt.Println(i) } // 单个循环条件 j := 1 for j &lt; 5{ fmt.Println(j) j&#43;&#43; } // 永久循环 循环体内使用break/return跳出循环 for { fmt.Println(&#34;一直循环&#34;) break } ">
 <meta itemprop="datePublished" content="2020-12-04T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-12-04T00:00:00+00:00" />
 <meta itemprop="wordCount" content="29">
 
 
 
-<meta itemprop="keywords" content="" />
+<meta itemprop="keywords" content="Go,example," />
 <meta property="og:title" content="Go For循环" />
-<meta property="og:description" content="// 经典for循环for i:=0; i&lt;10; i&#43;&#43; {fmt.Println(i)}// 单个循环条件j := 1for j &lt; 5{fmt.Println(j)j&#43;&#43;}// 永久循环 循环体内使用break/return跳出循环for {fmt.Println(&quot;一直循环&quot;)break}" />
+<meta property="og:description" content="// 经典for循环 for i:=0; i&lt;10; i&#43;&#43; { fmt.Println(i) } // 单个循环条件 j := 1 for j &lt; 5{ fmt.Println(j) j&#43;&#43; } // 永久循环 循环体内使用break/return跳出循环 for { fmt.Println(&#34;一直循环&#34;) break } " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://muxiaoqi.github.io/posts/example/loop/" />
 <meta property="article:published_time" content="2020-12-04T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-12-04T00:00:00+00:00" />
+
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Go For循环"/>
-<meta name="twitter:description" content="// 经典for循环for i:=0; i&lt;10; i&#43;&#43; {fmt.Println(i)}// 单个循环条件j := 1for j &lt; 5{fmt.Println(j)j&#43;&#43;}// 永久循环 循环体内使用break/return跳出循环for {fmt.Println(&quot;一直循环&quot;)break}"/>
+<meta name="twitter:description" content="// 经典for循环 for i:=0; i&lt;10; i&#43;&#43; { fmt.Println(i) } // 单个循环条件 j := 1 for j &lt; 5{ fmt.Println(j) j&#43;&#43; } // 永久循环 循环体内使用break/return跳出循环 for { fmt.Println(&#34;一直循环&#34;) break } "/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -73,25 +74,28 @@
 				<h1>Go For循环</h1>
 			</header>
 			<div class="content">
-				<pre><code>// 经典for循环
-for i:=0; i&lt;10; i++ {
-    fmt.Println(i)
-}
-// 单个循环条件
-j := 1
-for j &lt; 5{
-    fmt.Println(j)
-    j++
-}
-// 永久循环 循环体内使用break/return跳出循环
-for {
-    fmt.Println(&quot;一直循环&quot;)
-    break
-}
-</code></pre>
+				<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// 经典for循环
+</span><span class="c1"></span><span class="k">for</span> <span class="nx">i</span><span class="o">:=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span><span class="p">&lt;</span><span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+<span class="p">}</span>
+<span class="c1">// 单个循环条件
+</span><span class="c1"></span><span class="nx">j</span> <span class="o">:=</span> <span class="mi">1</span>
+<span class="k">for</span> <span class="nx">j</span> <span class="p">&lt;</span> <span class="mi">5</span><span class="p">{</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">j</span><span class="p">)</span>
+    <span class="nx">j</span><span class="o">++</span>
+<span class="p">}</span>
+<span class="c1">// 永久循环 循环体内使用break/return跳出循环
+</span><span class="c1"></span><span class="k">for</span> <span class="p">{</span>
+    <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;一直循环&#34;</span><span class="p">)</span>
+    <span class="k">break</span>
+<span class="p">}</span>
+</code></pre></div>
 			</div>
 			<hr class="post-end">
 			<footer class="post-info">
+				<p>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://muxiaoqi.github.io/tags/go">Go</a></span><span class="tag"><a href="https://muxiaoqi.github.io/tags/example">example</a></span>
+				</p>
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>29 Words</p>
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-12-04 08:00 &#43;0800</p>
 			</footer>
