@@ -6,8 +6,52 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Mon, 07 Dec 2020 11:29:03 +0800</lastBuildDate>
+		<lastBuildDate>Thu, 25 Feb 2021 16:16:01 +0800</lastBuildDate>
 		<atom:link href="https://muxiaoqi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>goland激活</title>
+			<link>https://muxiaoqi.github.io/posts/ide/goland%E6%BF%80%E6%B4%BB/</link>
+			<pubDate>Thu, 25 Feb 2021 16:16:01 +0800</pubDate>
+			
+			<guid>https://muxiaoqi.github.io/posts/ide/goland%E6%BF%80%E6%B4%BB/</guid>
+			<description>下载破解补丁 链接：https://pan.baidu.com/s/1Nv6wg9ZRt1Wp6LZnMSBQuQ 提取码：56h0
+下载补丁文件jetbrains-agent.jar并将它放置到 Goland安装目录的\bin目录下（位置可随意，放这里是怕误操作删除了破解文件）。
+进入项目 如果你之前已经使用有效期激活过可跳过此步骤，如果你是刚下载的GoLand，则需要点击激活窗口的“Evaluate for free”免费试用，然后再创建一个空项目，这样就可以进入到GoLand的工作页面
+修改配置文件 进入到项目界面后，点击GoLand最上面的菜单栏中的 “Help” -&amp;gt; “Edit Custom VM Options …”，如果提示是否要创建文件，请点”Yes”
+在打开的vmoptions编辑窗口末行添加：-javaagent:你goland的安装目录\jetbrains-agent.jar
+修改完配置文件之后重启GoLand
+输入激活码 重启GoLand之后，点击菜单栏中的 “Help” -&amp;gt; “Register …”，选择Activation code方式激活，复制下面激活码即可</description>
+			<content type="html"><![CDATA[<h3 id="下载破解补丁">下载破解补丁</h3>
+<p>链接：https://pan.baidu.com/s/1Nv6wg9ZRt1Wp6LZnMSBQuQ 
+提取码：56h0</p>
+<p>下载补丁文件jetbrains-agent.jar并将它放置到 Goland安装目录的\bin目录下（位置可随意，放这里是怕误操作删除了破解文件）。</p>
+<h3 id="进入项目">进入项目</h3>
+<p>如果你之前已经使用有效期激活过可跳过此步骤，如果你是刚下载的GoLand，则需要点击激活窗口的“Evaluate for free”免费试用，然后再创建一个空项目，这样就可以进入到GoLand的工作页面</p>
+<h3 id="修改配置文件">修改配置文件</h3>
+<p>进入到项目界面后，点击GoLand最上面的菜单栏中的 “Help” -&gt; “Edit Custom VM Options …”，如果提示是否要创建文件，请点”Yes”</p>
+<p>在打开的vmoptions编辑窗口末行添加：-javaagent:你goland的安装目录\jetbrains-agent.jar</p>
+<p>修改完配置文件之后重启GoLand</p>
+<h3 id="输入激活码">输入激活码</h3>
+<p>重启GoLand之后，点击菜单栏中的 “Help” -&gt; “Register …”，选择Activation code方式激活，复制下面激活码即可</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Go 指针</title>
+			<link>https://muxiaoqi.github.io/posts/example/pointers/</link>
+			<pubDate>Tue, 08 Dec 2020 18:25:01 +0800</pubDate>
+			
+			<guid>https://muxiaoqi.github.io/posts/example/pointers/</guid>
+			<description>i := 1 fmt.Printf(&amp;#34;变量i的类型为：%T， 值为：%v&amp;#34;, i, i) // 变量i的类型为：int， 值为：1  iptr := &amp;amp;i fmt.Printf(&amp;#34;变量iptr的类型为： %T，值为：%v&amp;#34;, iptr, iptr) // 变量iptr的类型为： *int，值为：0xc0000a2058 fmt.Printf(&amp;#34;变量iptr的指针值为：%v&amp;#34;, *iptr) //变量iptr的指针值为：1 </description>
+			<content type="html"><![CDATA[<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="nx">i</span> <span class="o">:=</span> <span class="mi">1</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;变量i的类型为：%T， 值为：%v&#34;</span><span class="p">,</span> <span class="nx">i</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span> <span class="c1">// 变量i的类型为：int， 值为：1
+</span><span class="c1"></span>
+<span class="nx">iptr</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">i</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;变量iptr的类型为： %T，值为：%v&#34;</span><span class="p">,</span> <span class="nx">iptr</span><span class="p">,</span> <span class="nx">iptr</span><span class="p">)</span> <span class="c1">// 变量iptr的类型为： *int，值为：0xc0000a2058
+</span><span class="c1"></span><span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;变量iptr的指针值为：%v&#34;</span><span class="p">,</span> <span class="o">*</span><span class="nx">iptr</span><span class="p">)</span> <span class="c1">//变量iptr的指针值为：1
+</span></code></pre></div>]]></content>
+		</item>
 		
 		<item>
 			<title>Go 函数</title>

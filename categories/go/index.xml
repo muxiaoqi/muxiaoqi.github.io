@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 07 Dec 2020 11:29:03 +0800</lastBuildDate><atom:link href="https://muxiaoqi.github.io/categories/go/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Dec 2020 18:25:01 +0800</lastBuildDate><atom:link href="https://muxiaoqi.github.io/categories/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go 指针</title>
+      <link>https://muxiaoqi.github.io/posts/example/pointers/</link>
+      <pubDate>Tue, 08 Dec 2020 18:25:01 +0800</pubDate>
+      
+      <guid>https://muxiaoqi.github.io/posts/example/pointers/</guid>
+      <description>i := 1 fmt.Printf(&amp;#34;变量i的类型为：%T， 值为：%v&amp;#34;, i, i) // 变量i的类型为：int， 值为：1  iptr := &amp;amp;i fmt.Printf(&amp;#34;变量iptr的类型为： %T，值为：%v&amp;#34;, iptr, iptr) // 变量iptr的类型为： *int，值为：0xc0000a2058 fmt.Printf(&amp;#34;变量iptr的指针值为：%v&amp;#34;, *iptr) //变量iptr的指针值为：1 </description>
+    </item>
+    
     <item>
       <title>Go 函数</title>
       <link>https://muxiaoqi.github.io/posts/example/functions/</link>

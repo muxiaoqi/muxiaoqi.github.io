@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>goland on muxiaoqi&#39;s Blogs</title>
+    <link>https://muxiaoqi.github.io/tags/goland/</link>
+    <description>Recent content in goland on muxiaoqi&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 25 Feb 2021 16:16:01 +0800</lastBuildDate><atom:link href="https://muxiaoqi.github.io/tags/goland/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>goland激活</title>
+      <link>https://muxiaoqi.github.io/posts/ide/goland%E6%BF%80%E6%B4%BB/</link>
+      <pubDate>Thu, 25 Feb 2021 16:16:01 +0800</pubDate>
+      
+      <guid>https://muxiaoqi.github.io/posts/ide/goland%E6%BF%80%E6%B4%BB/</guid>
+      <description>下载破解补丁 链接：https://pan.baidu.com/s/1Nv6wg9ZRt1Wp6LZnMSBQuQ 提取码：56h0
+下载补丁文件jetbrains-agent.jar并将它放置到 Goland安装目录的\bin目录下（位置可随意，放这里是怕误操作删除了破解文件）。
+进入项目 如果你之前已经使用有效期激活过可跳过此步骤，如果你是刚下载的GoLand，则需要点击激活窗口的“Evaluate for free”免费试用，然后再创建一个空项目，这样就可以进入到GoLand的工作页面
+修改配置文件 进入到项目界面后，点击GoLand最上面的菜单栏中的 “Help” -&amp;gt; “Edit Custom VM Options …”，如果提示是否要创建文件，请点”Yes”
+在打开的vmoptions编辑窗口末行添加：-javaagent:你goland的安装目录\jetbrains-agent.jar
+修改完配置文件之后重启GoLand
+输入激活码 重启GoLand之后，点击菜单栏中的 “Help” -&amp;gt; “Register …”，选择Activation code方式激活，复制下面激活码即可</description>
+    </item>
+    
+  </channel>
+</rss>

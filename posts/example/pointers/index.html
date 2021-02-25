@@ -8,16 +8,16 @@
 	<meta name="theme-color" content="#494f5c">
 	<meta name="msapplication-TileColor" content="#494f5c">
 <meta itemprop="name" content="Go 指针">
-<meta itemprop="description" content="">
+<meta itemprop="description" content="i := 1 fmt.Printf(&#34;变量i的类型为：%T， 值为：%v&#34;, i, i) // 变量i的类型为：int， 值为：1  iptr := &amp;i fmt.Printf(&#34;变量iptr的类型为： %T，值为：%v&#34;, iptr, iptr) // 变量iptr的类型为： *int，值为：0xc0000a2058 fmt.Printf(&#34;变量iptr的指针值为：%v&#34;, *iptr) //变量iptr的指针值为：1 ">
 <meta itemprop="datePublished" content="2020-12-08T18:25:01+08:00" />
 <meta itemprop="dateModified" content="2020-12-08T18:25:01+08:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="23">
 
 
 
-<meta itemprop="keywords" content="Go,example," />
+<meta itemprop="keywords" content="Go example," />
 <meta property="og:title" content="Go 指针" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="i := 1 fmt.Printf(&#34;变量i的类型为：%T， 值为：%v&#34;, i, i) // 变量i的类型为：int， 值为：1  iptr := &amp;i fmt.Printf(&#34;变量iptr的类型为： %T，值为：%v&#34;, iptr, iptr) // 变量iptr的类型为： *int，值为：0xc0000a2058 fmt.Printf(&#34;变量iptr的指针值为：%v&#34;, *iptr) //变量iptr的指针值为：1 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://muxiaoqi.github.io/posts/example/pointers/" />
 <meta property="article:published_time" content="2020-12-08T18:25:01+08:00" />
@@ -25,7 +25,7 @@
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Go 指针"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="i := 1 fmt.Printf(&#34;变量i的类型为：%T， 值为：%v&#34;, i, i) // 变量i的类型为：int， 值为：1  iptr := &amp;i fmt.Printf(&#34;变量iptr的类型为： %T，值为：%v&#34;, iptr, iptr) // 变量iptr的类型为： *int，值为：0xc0000a2058 fmt.Printf(&#34;变量iptr的指针值为：%v&#34;, *iptr) //变量iptr的指针值为：1 "/>
 
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -74,18 +74,27 @@
 				<h1>Go 指针</h1>
 			</header>
 			<div class="content">
-				
+				<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="nx">i</span> <span class="o">:=</span> <span class="mi">1</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;变量i的类型为：%T， 值为：%v&#34;</span><span class="p">,</span> <span class="nx">i</span><span class="p">,</span> <span class="nx">i</span><span class="p">)</span> <span class="c1">// 变量i的类型为：int， 值为：1
+</span><span class="c1"></span>
+<span class="nx">iptr</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">i</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;变量iptr的类型为： %T，值为：%v&#34;</span><span class="p">,</span> <span class="nx">iptr</span><span class="p">,</span> <span class="nx">iptr</span><span class="p">)</span> <span class="c1">// 变量iptr的类型为： *int，值为：0xc0000a2058
+</span><span class="c1"></span><span class="nx">fmt</span><span class="p">.</span><span class="nf">Printf</span><span class="p">(</span><span class="s">&#34;变量iptr的指针值为：%v&#34;</span><span class="p">,</span> <span class="o">*</span><span class="nx">iptr</span><span class="p">)</span> <span class="c1">//变量iptr的指针值为：1
+</span></code></pre></div>
 			</div>
 			<hr class="post-end">
 			<footer class="post-info">
 				<p>
-					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://muxiaoqi.github.io/tags/go">Go</a></span><span class="tag"><a href="https://muxiaoqi.github.io/tags/example">example</a></span>
+					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="https://muxiaoqi.github.io/tags/go-example">Go example</a></span>
 				</p>
-				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>0 Words</p>
+				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>23 Words</p>
 				<p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2020-12-08 18:25 &#43;0800</p>
 			</footer>
 		</article>
 		<div class="post-nav thin">
+			<a class="next-post" href="https://muxiaoqi.github.io/posts/ide/goland%E6%BF%80%E6%B4%BB/">
+				<span class="post-nav-label"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>&nbsp;Newer</span><br><span>goland激活</span>
+			</a>
 			<a class="prev-post" href="https://muxiaoqi.github.io/posts/example/functions/">
 				<span class="post-nav-label">Older&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></span><br><span>Go 函数</span>
 			</a>
@@ -95,7 +104,7 @@
 	</main>
 
 	<footer id="site-footer" class="section-inner thin animated fadeIn faster">
-		<p>&copy; 2020 <a href="https://muxiaoqi.github.io">muxiaoqi</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
+		<p>&copy; 2021 <a href="https://muxiaoqi.github.io">muxiaoqi</a> &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></p>
 		<p>
 			Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> &#183; Theme <a href="https://github.com/Track3/hermit" target="_blank" rel="noopener">Hermit</a> &#183; <a href="https://muxiaoqi.github.io/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
 		</p>
