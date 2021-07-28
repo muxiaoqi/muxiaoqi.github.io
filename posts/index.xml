@@ -6,8 +6,75 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Thu, 25 Feb 2021 16:16:01 +0800</lastBuildDate>
+		<lastBuildDate>Tue, 02 Mar 2021 16:38:41 +0800</lastBuildDate>
 		<atom:link href="https://muxiaoqi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Redis String</title>
+			<link>https://muxiaoqi.github.io/posts/redis/string/</link>
+			<pubDate>Tue, 02 Mar 2021 16:38:41 +0800</pubDate>
+			
+			<guid>https://muxiaoqi.github.io/posts/redis/string/</guid>
+			<description>set key value // 设置指定key的值 mset key value [key value ...] // 同时设置一个或多个 key-value 对 getset key value // 将给定key值为value, 并返回key的旧值 setbit key offset value // 对 key 所储存的字符串值，设置或清除指定偏移量上的位(bit) setex key seconds value // 将值 value 关联到 key ，并将 key 的过期时间设为 seconds (以秒为单位) setnx key value // 只有在 key 不存在时设置 key 的值  </description>
+			<content type="html"><![CDATA[<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="nx">set</span> <span class="nx">key</span> <span class="nx">value</span> <span class="c1">// 设置指定key的值
+</span><span class="c1"></span><span class="nx">mset</span> <span class="nx">key</span> <span class="nx">value</span> <span class="p">[</span><span class="nx">key</span> <span class="nx">value</span> <span class="o">...</span><span class="p">]</span> <span class="c1">// 同时设置一个或多个 key-value 对
+</span><span class="c1"></span><span class="nx">getset</span> <span class="nx">key</span> <span class="nx">value</span> <span class="c1">// 将给定key值为value, 并返回key的旧值
+</span><span class="c1"></span><span class="nx">setbit</span> <span class="nx">key</span> <span class="nx">offset</span> <span class="nx">value</span> <span class="c1">// 对 key 所储存的字符串值，设置或清除指定偏移量上的位(bit)
+</span><span class="c1"></span><span class="nx">setex</span> <span class="nx">key</span> <span class="nx">seconds</span> <span class="nx">value</span> <span class="c1">// 将值 value 关联到 key ，并将 key 的过期时间设为 seconds (以秒为单位)
+</span><span class="c1"></span><span class="nx">setnx</span> <span class="nx">key</span> <span class="nx">value</span> <span class="c1">// 只有在 key 不存在时设置 key 的值
+</span><span class="c1"></span>
+</code></pre></div>]]></content>
+		</item>
+		
+		<item>
+			<title>GO 结构体</title>
+			<link>https://muxiaoqi.github.io/posts/example/struct/</link>
+			<pubDate>Thu, 25 Feb 2021 17:43:52 +0800</pubDate>
+			
+			<guid>https://muxiaoqi.github.io/posts/example/struct/</guid>
+			<description>GO的结构体是各个字段及字段类型的集合。
+定义一个结构体 type person struct { name string age int } 实例化结构体 // 基本的实例化形式 var student person // 创建指针类型结构体 student := new(person) // 取结构体的地址实例化 student := &amp;amp;person{} 初始化 // 多值列表初始化结构体 student := person{ &amp;#34;小明&amp;#34;, 10, } fmt.Println(student) // {小明 10}  // 键值对初始化结构体 student := person{ name: &amp;#34;小明&amp;#34;, age: 10, } fmt.Println(student) // {小明 10}  // 初始化匿名结构体 msg := struct { id int data string }{ 10, &amp;#34;hello&amp;#34;, } fmt.</description>
+			<content type="html"><![CDATA[<p>GO的结构体是各个字段及字段类型的集合。</p>
+<h3 id="定义一个结构体">定义一个结构体</h3>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="kd">type</span> <span class="nx">person</span> <span class="kd">struct</span> <span class="p">{</span>
+	<span class="nx">name</span> <span class="kt">string</span>
+	<span class="nx">age</span> <span class="kt">int</span>
+<span class="p">}</span>
+</code></pre></div><h3 id="实例化结构体">实例化结构体</h3>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// 基本的实例化形式
+</span><span class="c1"></span><span class="kd">var</span> <span class="nx">student</span> <span class="nx">person</span>
+
+<span class="c1">// 创建指针类型结构体
+</span><span class="c1"></span><span class="nx">student</span> <span class="o">:=</span> <span class="nb">new</span><span class="p">(</span><span class="nx">person</span><span class="p">)</span>
+
+<span class="c1">// 取结构体的地址实例化
+</span><span class="c1"></span><span class="nx">student</span> <span class="o">:=</span> <span class="o">&amp;</span><span class="nx">person</span><span class="p">{}</span>
+</code></pre></div><h3 id="初始化">初始化</h3>
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="c1">// 多值列表初始化结构体
+</span><span class="c1"></span><span class="nx">student</span> <span class="o">:=</span> <span class="nx">person</span><span class="p">{</span>
+	<span class="s">&#34;小明&#34;</span><span class="p">,</span>
+	<span class="mi">10</span><span class="p">,</span>
+<span class="p">}</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">student</span><span class="p">)</span> <span class="c1">// {小明 10}
+</span><span class="c1"></span>
+<span class="c1">// 键值对初始化结构体
+</span><span class="c1"></span><span class="nx">student</span> <span class="o">:=</span> <span class="nx">person</span><span class="p">{</span>
+	<span class="nx">name</span><span class="p">:</span> <span class="s">&#34;小明&#34;</span><span class="p">,</span>
+	<span class="nx">age</span><span class="p">:</span>  <span class="mi">10</span><span class="p">,</span>
+<span class="p">}</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">student</span><span class="p">)</span> <span class="c1">// {小明 10}
+</span><span class="c1"></span>
+<span class="c1">// 初始化匿名结构体
+</span><span class="c1"></span><span class="nx">msg</span> <span class="o">:=</span> <span class="kd">struct</span> <span class="p">{</span>
+	<span class="nx">id</span> <span class="kt">int</span>
+	<span class="nx">data</span> <span class="kt">string</span>
+<span class="p">}{</span>
+	<span class="mi">10</span><span class="p">,</span>
+	<span class="s">&#34;hello&#34;</span><span class="p">,</span>
+<span class="p">}</span>
+<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">msg</span><span class="p">)</span> <span class="c1">// {10 hello}
+</span></code></pre></div>]]></content>
+		</item>
 		
 		<item>
 			<title>goland激活</title>

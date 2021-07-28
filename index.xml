@@ -7,7 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 25 Feb 2021 16:16:01 +0800</lastBuildDate><atom:link href="https://muxiaoqi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Mar 2021 16:38:41 +0800</lastBuildDate><atom:link href="https://muxiaoqi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis String</title>
+      <link>https://muxiaoqi.github.io/posts/redis/string/</link>
+      <pubDate>Tue, 02 Mar 2021 16:38:41 +0800</pubDate>
+      
+      <guid>https://muxiaoqi.github.io/posts/redis/string/</guid>
+      <description>set key value // 设置指定key的值 mset key value [key value ...] // 同时设置一个或多个 key-value 对 getset key value // 将给定key值为value, 并返回key的旧值 setbit key offset value // 对 key 所储存的字符串值，设置或清除指定偏移量上的位(bit) setex key seconds value // 将值 value 关联到 key ，并将 key 的过期时间设为 seconds (以秒为单位) setnx key value // 只有在 key 不存在时设置 key 的值  </description>
+    </item>
+    
+    <item>
+      <title>GO 结构体</title>
+      <link>https://muxiaoqi.github.io/posts/example/struct/</link>
+      <pubDate>Thu, 25 Feb 2021 17:43:52 +0800</pubDate>
+      
+      <guid>https://muxiaoqi.github.io/posts/example/struct/</guid>
+      <description>GO的结构体是各个字段及字段类型的集合。
+定义一个结构体 type person struct { name string age int } 实例化结构体 // 基本的实例化形式 var student person // 创建指针类型结构体 student := new(person) // 取结构体的地址实例化 student := &amp;amp;person{} 初始化 // 多值列表初始化结构体 student := person{ &amp;#34;小明&amp;#34;, 10, } fmt.Println(student) // {小明 10}  // 键值对初始化结构体 student := person{ name: &amp;#34;小明&amp;#34;, age: 10, } fmt.Println(student) // {小明 10}  // 初始化匿名结构体 msg := struct { id int data string }{ 10, &amp;#34;hello&amp;#34;, } fmt.</description>
+    </item>
+    
     <item>
       <title>goland激活</title>
       <link>https://muxiaoqi.github.io/posts/ide/goland%E6%BF%80%E6%B4%BB/</link>
@@ -78,12 +97,12 @@
     </item>
     
     <item>
-      <title>Go 变量</title>
-      <link>https://muxiaoqi.github.io/posts/example/variables/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <title>Readme</title>
+      <link>https://muxiaoqi.github.io/about/readme/</link>
+      <pubDate>Wed, 02 Dec 2020 19:38:07 +0800</pubDate>
       
-      <guid>https://muxiaoqi.github.io/posts/example/variables/</guid>
-      <description>// var声明一个变量 var a int = 100 fmt.Println(&amp;#34;var声明一个变量：&amp;#34;, a) // var声明多个变量 var b, c int = 1, 2 fmt.Println(&amp;#34;var声明多个变量：&amp;#34;, b, c) // 自动推导类型 var d = &amp;#34;hello world&amp;#34; fmt.Println(&amp;#34;自动推导数据类型：&amp;#34;, d) // 声明变量没初始化 会默认 int=&amp;gt;0 string=&amp;gt;&amp;#39;&amp;#39; var e bool fmt.Println(&amp;#34;bool默认值:&amp;#34;, e) // 简写方式 f := &amp;#34;i love china&amp;#34; fmt.Println(&amp;#34;简写方式: &amp;#34;, f) </description>
+      <guid>https://muxiaoqi.github.io/about/readme/</guid>
+      <description>创建新文章 hugo new posts/my-first-post.md打包网站到 /docs 文件夹 hugo -d docs</description>
     </item>
     
   </channel>

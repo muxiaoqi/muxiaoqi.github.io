@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>redis on muxiaoqi&#39;s Blogs</title>
+    <link>https://muxiaoqi.github.io/tags/redis/</link>
+    <description>Recent content in redis on muxiaoqi&#39;s Blogs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 02 Mar 2021 16:38:41 +0800</lastBuildDate><atom:link href="https://muxiaoqi.github.io/tags/redis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis String</title>
+      <link>https://muxiaoqi.github.io/posts/redis/string/</link>
+      <pubDate>Tue, 02 Mar 2021 16:38:41 +0800</pubDate>
+      
+      <guid>https://muxiaoqi.github.io/posts/redis/string/</guid>
+      <description>set key value // 设置指定key的值 mset key value [key value ...] // 同时设置一个或多个 key-value 对 getset key value // 将给定key值为value, 并返回key的旧值 setbit key offset value // 对 key 所储存的字符串值，设置或清除指定偏移量上的位(bit) setex key seconds value // 将值 value 关联到 key ，并将 key 的过期时间设为 seconds (以秒为单位) setnx key value // 只有在 key 不存在时设置 key 的值  </description>
+    </item>
+    
+  </channel>
+</rss>
